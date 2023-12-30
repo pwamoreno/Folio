@@ -8,7 +8,7 @@ const Contact = () => {
   return (
     <div className='bg-shadow-color xl:px-[83px] px-12' id='contact'>
       <div className='pt-[100px] xl:block flex flex-col items-center'>
-        <h1 className='text-secondary-color text-4xl font-bold font-poppins '>Let's talk!</h1>
+        <h1 className='text-secondary-color text-4xl font-bold font-poppins'>Let&apos;s talk!</h1>
         <button className='py-8 xl:w-[200px] '>
           <Link className='md:block xl:mr-[31px] bg-secondary-color text-primary-color hover:border-tertiary-color font-poppins font-bold px-5 xl:py-4 md:py-1 py-4 rounded-full' href='#contact'>
             Get in touch
@@ -38,7 +38,7 @@ const Contact = () => {
         </div>
       </div>
       <div className='flex xl:justify-end xl:py-[50px] py-[20px]'>
-        <a href='/#home' className='cursor-pointer'><Image src={upArrow} alt='up button' className='xl:w-[56px] w-[40px]'/></a>
+        <Link href='/#home' className='cursor-pointer'><Image src={upArrow} alt='up button' className='xl:w-[56px] w-[40px]'/></Link>
       </div>
     </div>
   )

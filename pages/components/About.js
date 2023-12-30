@@ -21,13 +21,13 @@ const About = () => {
             About
           </h1>
           <p className='xl:w-[600px] font-poppins xl:pt-8 xl:leading-normal xl:text-2xl text-primary-color'>
-            I am a software engineer having graduated from the University of Lagos with a Bsc in computer science, but I'm 
+            I am a software engineer having graduated from the University of Lagos with a Bsc in computer science, but I&apos;m 
             also a self taught designer that has found a niche in branding and user interface design. I am currently based 
             in Lagos, Nigeria.
           </p>
         </div>
         <div className='xl:pr-[83px] flex xl:items-end justify-center pb-[50px] pt-4'>
-          <Image src={aboutImage} className='xl:w-[500px] w-[200px]' />
+          <Image src={aboutImage} alt='about' className='xl:w-[500px] w-[200px]' />
         </div>
       </div>
     </div>
