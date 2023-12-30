@@ -1,4 +1,5 @@
 import React from 'react';
+import Link from 'next/link';
 import Image from 'next/image';
 import relish from '../assets/relish.png';
 import avenir from '../assets/avenir.png';
@@ -25,9 +26,9 @@ const Projects = () => {
           contemporary dishes to give a unique blend of the best of both worlds. The web interfaces was made with react.  
         </p>
         <button className='py-8 xl:w-[200px] '>
-          <a className='md:block xl:mr-[31px] bg-secondary-color text-primary-color hover:border-tertiary-color font-poppins font-bold px-5 xl:py-4 md:py-1 py-4 rounded-full' href='#contact'>
+          <Link className='md:block xl:mr-[31px] bg-secondary-color text-primary-color hover:border-tertiary-color font-poppins font-bold px-5 xl:py-4 md:py-1 py-4 rounded-full' href='#contact'>
             Live Demo
-          </a>
+          </Link>
         </button>
       </div>
       <div className='xl:flex xl:flex-row  justify-center items-center pt-24'>
@@ -38,9 +39,9 @@ const Projects = () => {
             Avenir is an AI tech startup that hopes to one day put themselves as a pioneer in AI development. The web interface was made with react.  
           </p>
           <button className='py-4 pt-6'>
-            <a className='md:block mr-[31px] bg-secondary-color text-primary-color hover:border-tertiary-color font-poppins font-bold px-5 md:py-1 py-2 rounded-full' href='#contact'>
+            <Link className='md:block mr-[31px] bg-secondary-color text-primary-color hover:border-tertiary-color font-poppins font-bold px-5 md:py-1 py-2 rounded-full' href='#contact'>
               Live Demo
-            </a>
+            </Link>
           </button>
         </div>
         <div className='xl:pl-4 xl:pr-[83px] xl:pt-0 pt-6 flex flex-col items-center'>
@@ -50,9 +51,9 @@ const Projects = () => {
             Crown Bank is a bank web app that emphasizes good and flexible card payments. The web interface was made with react.  
           </p>
           <button className='py-4 pt-6'>
-            <a className='md:block mr-[31px] bg-secondary-color text-primary-color hover:border-tertiary-color font-poppins font-bold px-5 md:py-1 py-2 rounded-full' href='#contact'>
+            <Link className='md:block mr-[31px] bg-secondary-color text-primary-color hover:border-tertiary-color font-poppins font-bold px-5 md:py-1 py-2 rounded-full' href='#contact'>
               Live Demo
-            </a>
+            </Link>
           </button>
         </div>
       </div>
@@ -60,7 +61,7 @@ const Projects = () => {
         <div className='w-full xl:h-[246px] h-[400px] bg-shadow-color flex xl:flex-row flex-col items-center justify-between xl:px-[120px]'>
           <Image src={three} alt='the three' className='xl:w-[166px] w-[120px] xl:pt-0 pt-6' />
           <p className='font-poppins text-secondary-color font-bold xl:text-2xl'>Check out my design projects here</p>
-          <a href='https://www.behance.net/pwamoreno/' className='cursor-pointer'><Image src={sideArrow} alt='arrow button' className='xl:w-[60px] w-[40px] xl:py-0 py-6' /></a>
+          <Link href='https://www.behance.net/pwamoreno/' className='cursor-pointer'><Image src={sideArrow} alt='arrow button' className='xl:w-[60px] w-[40px] xl:py-0 py-6' /></Link>
         </div>
       </div>
     </div>

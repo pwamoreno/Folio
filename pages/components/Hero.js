@@ -1,6 +1,7 @@
 import React from 'react';
 import Image from 'next/image';
 import hero from '../assets/heroImage.png';
+import Link from 'next/link';
 
 const Hero = () => {
   return (
@@ -13,9 +14,9 @@ const Hero = () => {
           I am a software engineer and designer with a big creative,<br className='md:hidden xl:block hidden' /> mind who loves the idea of creating amazing things. If that<br className='md:hidden xl:block hidden'/> sounds cool hit me up!
         </p>
         <button className='py-4'>
-          <a className='md:block mr-[31px] border-[3px] text-secondary-color hover:border-tertiary-color font-poppins font-bold px-5 md:py-1 py-2 rounded-full' href='#contact'>
+          <Link className='md:block mr-[31px] border-[3px] text-secondary-color hover:border-tertiary-color font-poppins font-bold px-5 md:py-1 py-2 rounded-full' href='#contact'>
             Hit Me Up!
-          </a>
+          </Link>
         </button>
       </div>
       <div className='pt-6 md:px-0 px-20'>
