@@ -1,8 +1,8 @@
 import React, { useState} from 'react';
 import Image from 'next/image';
-import logo from '../assets/logo.png';
-import button from '../assets/menuButton.png';
-import cancel from '../assets/cancelMenu.png';
+import logo from '../assets/Logo.png';
+import button from '../assets/MenuButton.png';
+import cancel from '../assets/CancelMenu.png';
 
 const Header = () => {
   const [toggleMenu, setToggleMenu] = useState(false)

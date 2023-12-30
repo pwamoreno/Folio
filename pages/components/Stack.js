@@ -1,6 +1,6 @@
 import React from 'react';
 import Image from 'next/image';
-import stackImage from '../assets/stackImage.png';
+import stackImage from '../assets/StackImage.png';
 import html from '../assets/html.png';
 import css from '../assets/css.png';
 import js from '../assets/js.png';

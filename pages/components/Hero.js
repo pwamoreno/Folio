@@ -1,6 +1,6 @@
 import React from 'react';
 import Image from 'next/image';
-import hero from '../assets/heroImage.png';
+import hero from '../assets/HeroImage.png';
 import Link from 'next/link';
 
 const Hero = () => {

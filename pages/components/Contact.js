@@ -2,7 +2,7 @@ import React from 'react';
 import Link from 'next/link';
 import { AiFillTwitterCircle, AiFillInstagram, AiFillDribbbleCircle, AiFillCrown } from 'react-icons/ai';
 import Image from 'next/image';
-import upArrow from '../assets/upArrow.png';
+import upArrow from '../assets/UpArrow.png';
 
 const Contact = () => {
   return (

@@ -1,11 +1,11 @@
 import React from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
-import relish from '../assets/relish.png';
-import avenir from '../assets/avenir.png';
-import crownBank from '../assets/crownBank.png';
-import three from '../assets/thethree.png';
-import sideArrow from '../assets/sideArrow.png';
+import relish from '../assets/Relish.png';
+import avenir from '../assets/Avenir.png';
+import crownBank from '../assets/CrownBank.png';
+import three from '../assets/TheThree.png';
+import sideArrow from '../assets/SideArrow.png';
 
 const Projects = () => {
   return (
@@ -26,7 +26,7 @@ const Projects = () => {
           contemporary dishes to give a unique blend of the best of both worlds. The web interfaces was made with react.  
         </p>
         <button className='py-8 xl:w-[200px] '>
-          <Link className='md:block xl:mr-[31px] bg-secondary-color text-primary-color hover:border-tertiary-color font-poppins font-bold px-5 xl:py-4 md:py-1 py-4 rounded-full' href='#contact'>
+          <Link className='md:block xl:mr-[31px] bg-secondary-color text-primary-color hover:border-tertiary-color font-poppins font-bold px-5 xl:py-4 md:py-1 py-4 rounded-full' href='https://relish.vercel.app/'>
             Live Demo
           </Link>
         </button>
@@ -39,7 +39,7 @@ const Projects = () => {
             Avenir is an AI tech startup that hopes to one day put themselves as a pioneer in AI development. The web interface was made with react.  
           </p>
           <button className='py-4 pt-6'>
-            <Link className='md:block mr-[31px] bg-secondary-color text-primary-color hover:border-tertiary-color font-poppins font-bold px-5 md:py-1 py-2 rounded-full' href='#contact'>
+            <Link className='md:block mr-[31px] bg-secondary-color text-primary-color hover:border-tertiary-color font-poppins font-bold px-5 md:py-1 py-2 rounded-full' href='https://avenir-ai.vercel.app/'>
               Live Demo
             </Link>
           </button>
@@ -51,7 +51,7 @@ const Projects = () => {
             Crown Bank is a bank web app that emphasizes good and flexible card payments. The web interface was made with react.  
           </p>
           <button className='py-4 pt-6'>
-            <Link className='md:block mr-[31px] bg-secondary-color text-primary-color hover:border-tertiary-color font-poppins font-bold px-5 md:py-1 py-2 rounded-full' href='#contact'>
+            <Link className='md:block mr-[31px] bg-secondary-color text-primary-color hover:border-tertiary-color font-poppins font-bold px-5 md:py-1 py-2 rounded-full' href='https://crown-bank.vercel.app/'>
               Live Demo
             </Link>
           </button>
