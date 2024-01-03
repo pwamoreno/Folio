@@ -39,7 +39,7 @@ const Projects = () => {
             Avenir is an AI tech startup that hopes to one day put themselves as a pioneer in AI development. The web interface was made with react.  
           </p>
           <button className='py-4 pt-6'>
-            <Link className='md:block mr-[31px] bg-secondary-color text-primary-color hover:border-tertiary-color font-poppins font-bold px-5 md:py-1 py-2 rounded-full' href='https://avenir-ai.vercel.app/'>
+            <Link className='md:block  bg-secondary-color text-primary-color hover:border-tertiary-color font-poppins font-bold px-5 md:py-1 py-2 rounded-full' href='https://avenir-ai.vercel.app/'>
               Live Demo
             </Link>
           </button>
@@ -51,7 +51,7 @@ const Projects = () => {
             Crown Bank is a bank web app that emphasizes good and flexible card payments. The web interface was made with react.  
           </p>
           <button className='py-4 pt-6'>
-            <Link className='md:block mr-[31px] bg-secondary-color text-primary-color hover:border-tertiary-color font-poppins font-bold px-5 md:py-1 py-2 rounded-full' href='https://crown-bank.vercel.app/'>
+            <Link className='md:block  bg-secondary-color text-primary-color hover:border-tertiary-color font-poppins font-bold px-5 md:py-1 py-2 rounded-full' href='https://crown-bank.vercel.app/'>
               Live Demo
             </Link>
           </button>

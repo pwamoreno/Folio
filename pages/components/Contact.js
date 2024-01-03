@@ -26,7 +26,7 @@ const Contact = () => {
             <Link href='/'><AiFillCrown className='text-secondary-color' /></Link>
           </div>
         </div>
-        <div className='xl:pt-[100px] pt-5 xl:pl-[500px]'>
+        <div className='xl:pt-[100px] pt-5 xl:pl-[500px] xl:mx-0 mx-auto'>
           <Link href='/#projects'><p className='text-secondary-color font-poppins text-1xl font-bold py-5'>Work</p></Link>
           <Link href='/#about'><p className='text-secondary-color font-poppins text-1xl font-bold py-5'>About</p></Link>
           <Link href='/#stack'><p className='text-secondary-color font-poppins text-1xl font-bold py-5'>Stack</p></Link>
