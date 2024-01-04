@@ -11,7 +11,7 @@ const Hero = () => {
           Welcome!<br /> My name is Moreno.
         </h1>
         <p className='text-secondary-color font-poppins font-normal xl:py-[25px] md:py-[20px] py-4 xl:text-2xl md:text-1xl md:leading-normal md:w-[500px] xl:w-full'>
-          I am a software engineer and designer with a big creative,<br className='md:hidden xl:block hidden' /> mind who loves the idea of creating amazing things. If that<br className='md:hidden xl:block hidden'/> sounds cool hit me up!
+          I am a software engineer and designer with a big creative<br className='md:hidden xl:block hidden' /> mind, who loves the idea of creating amazing things. If that<br className='md:hidden xl:block hidden'/> sounds cool hit me up!
         </p>
         <button className='py-4'>
           <Link className='md:block mr-[31px] border-[3px] text-secondary-color hover:border-tertiary-color font-poppins font-bold px-5 md:py-1 py-2 rounded-full' href='#contact'>
